@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Word Count</string>
+    <string name="hint">Enter your text here</string>
+</resources>
