@@ -33,6 +33,7 @@ public class WordCounter extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                Log.d("WordCount", "'go' button clicked");
                 String textToCount = mTextToCount.getText().toString();
                 WordCount wordCounter = new WordCount();
                 int wordCount = wordCounter.go(textToCount);
